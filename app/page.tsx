@@ -155,7 +155,7 @@ export default function Home() {
             >
               <div className="absolute inset-0 bg-gradient-to-r from-amber-500/20 to-transparent rounded-lg"></div>
               <Image
-                src="/placeholder.svg?height=500&width=600"
+                src="/image1.jpeg"
                 alt="PMC Barbershop Team"
                 fill
                 className="object-cover rounded-lg"
@@ -524,7 +524,7 @@ function AboutSection() {
               <span className="font-bold text-black">Quality</span>
             </div>
             <Image
-              src="/placeholder.svg?height=400&width=600"
+              src="/image2.jpeg"
               alt="Barbershop Interior"
               fill
               className="object-cover rounded-lg"
