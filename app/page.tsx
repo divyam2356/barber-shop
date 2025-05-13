@@ -48,15 +48,14 @@ export default function Home() {
       >
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
-            <Link href="/" className="flex items-center group">
-              <motion.span
+            <Link href="/" className="flex items-center group">                <motion.span
                 initial={{ scale: 1 }}
                 whileHover={{ scale: 1.05 }}
                 className="text-2xl font-bold text-amber-500 transition-colors group-hover:text-amber-400"
               >
-                PMC
+                Fama
               </motion.span>
-              <span className="ml-2 text-lg">Barbershop</span>
+              <span className="ml-2 text-lg">Barber Shop and Beauty Salon</span>
             </Link>
 
             <nav className="hidden md:flex items-center space-x-8">
@@ -73,11 +72,11 @@ export default function Home() {
 
             <div className="flex items-center space-x-4">
               <Link
-                href="tel:+19408081569"
+                href="tel:+19406129127"
                 className="hidden md:flex items-center text-white hover:text-amber-500 transition-colors group"
               >
                 <Phone className="h-4 w-4 mr-2 group-hover:rotate-12 transition-transform" />
-                <span>+1 940 808 1569</span>
+                <span>+1 940-612-9127</span>
               </Link>
               <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                 <Button className="bg-amber-500 hover:bg-amber-600 text-black relative overflow-hidden group">
