@@ -9,7 +9,6 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "PMC Barbershop - Premium Barber Services in Denton",
   description: "Classic cuts, modern style. PMC Barbershop offers premium barber services in Denton, TX.",
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({
